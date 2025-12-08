@@ -79,16 +79,3 @@ Bounding boxes
 Probabilities
 
 Landmarks (eyes, nose, lips corners)
-
-## Improvement Suggestions
-
-✔ Live webcam face recognition
-
-✔ Streamlit/Gtk GUI app
-
-✔ Multiple identities
-
-✔ Persist identification using SQLite
-
-✔ Real-time video tracking
-
