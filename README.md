@@ -1,1 +1,1 @@
-# facial_recog_mtcnn
+# facial_recog_mtcnn and ResNet
