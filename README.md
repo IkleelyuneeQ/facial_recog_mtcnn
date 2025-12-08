@@ -5,11 +5,17 @@ This project demonstrates a full pipeline for detecting faces from a video, extr
 ## Requirements
 
 pip install facenet-pytorch
+
 pip install torchvision
+
 pip install opencv-python
+
 pip install matplotlib
+
 pip install pillow
+
 ~/.cache/torch/checkpoints/20180402-114759-vggface2.pt
+
 InceptionResnetV1(pretrained="vggface2")
 
 
@@ -40,17 +46,26 @@ Visualize bounding boxes and predicted names
 
 project/
 │── data_video/
+
 │   ├── pat_morgan.mp4
-│   └── extracted_frames/   <-- auto-generated frames
+
+│   └── extracted_frames/   
 │
 │── data_images/
+
 │   ├── morgan/
+
 │   └── patrick/
+
 │
-│── embedded.pt             <-- saved embeddings
+
+│── embedded.pt             
+
 │── multi_faces/
+
 │── README.md
-│── notebook.ipynb          <-- Your code
+
+│── notebook.ipynb          
 
 
 ## Face Detection with MTCNN
@@ -65,12 +80,15 @@ Probabilities
 
 Landmarks (eyes, nose, lips corners)
 
-## Improvements Suggestions
-Can be extended into:
+## Improvement Suggestions
 
 ✔ Live webcam face recognition
+
 ✔ Streamlit/Gtk GUI app
+
 ✔ Multiple identities
+
 ✔ Persist identification using SQLite
+
 ✔ Real-time video tracking
 
